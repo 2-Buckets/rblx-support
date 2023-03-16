@@ -13,7 +13,7 @@ local autospawn
 -- autospawn feature (whats broken)
 
 local ivalue = game.Players.LocalPlayer.Values["As-Toggle"]
-if ivalue == 0 then
+if ivalue.Value == 0 then
 	autospawn = false
 else
 	autospawn = true
